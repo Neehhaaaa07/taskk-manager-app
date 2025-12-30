@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@400;700&family=Inter:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --app-green: #00684A;       /* Primary Dark Green */
+  --app-light-green: #E3FBE3; /* Light Green Backgrounds */
+  --app-bg: #F9FBFA;          /* Clean Off-white Background */
+}
+
+body {
+  background-color: var(--app-bg);
+  color: #1C2D38;
+  font-family: 'Inter', sans-serif;
+}
+
+.font-serif-app {
+  font-family: 'Noticia Text', serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: #C1C7D0; 
+  border-radius: 4px;
+}
